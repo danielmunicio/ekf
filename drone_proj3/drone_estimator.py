@@ -294,6 +294,7 @@ class ExtendedKalmanFilter(Estimator):
                          x[2]])
 
     def approx_A(self, x, u):
+        print(x.shape, u.shape)
         return np.array([[1, 0, 0, self.dt, 0, 0],
                         [0, 1, 0, 0, self.dt, 0], 
                         [0, 0, 1, 0, 0, self.dt],
