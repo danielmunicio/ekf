@@ -1,6 +1,8 @@
 ## Extended Kalman Filter working on real-life turtlebot
 ![EKF_Turtlebot](Turtlebot_EKF.jpg)
 
+Video of it working in-sync with turtlebot moving [here](https://tinyurl.com/ekfturtlebot)! 
+
 ## Extended Kalman Filter working on simulated planar quadrotor
 ![Planar Quadrotor EKF](Tuned_EKF.png)
 
